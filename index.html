@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина покупок</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Корзина</h1>
+    <div class="basket">
+        <div class="product-item">
+            <img src="./images/24100238_3.jpg">
+            <div class="product-list">
+                <h3>Мультиварка Redmond</h3>
+                <span class="price" id="price_1">600</span>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="./images/img_0_142_5165_2_1.jpg">
+            <div class="product-list">
+                <h3>Холодильник LG</h3>
+                <span class="price" id="price_2">9000</span>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="./images/kofemashina.jpg">
+            <div class="product-list">
+                <h3>Кофемашина Philips</h3>
+                <span class="price" id="price_3">2100</span>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="./images/oven.jpg">
+            <div class="product-list">
+                <h3>Духовой шкаф Bosh</h3>
+                <span class="price" id="price_4">2500</span>
+            </div>
+        </div>
+    </div>
+    <div class="calculation">
+        <button id="btn" onclick="click()">Использовать купон на 20%</button>
+        <div class="total">
+            <p>Итого:</p>
+            <p class="grand_total" id="new_total"></p>
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
